@@ -1,8 +1,9 @@
 Package: lab3
-Title: What the Package Does (One Line, Title Case)
+Title: lab3: 
 Version: 0.0.0.9000
 Authors@R: 
-    person("Albin", "Prepuk", , "first.last@example.com", role = c("aut", "cre"))
+    person("Albin", "Prepuk", , "first.last@example.com", role = c("aut", "cre")),
+    person("Jonatan", "Prepuk", "jonpr189@student.liu.se", role= c("aut", "cre"))
 Description: What the package does (one paragraph).
 License: `use_mit_license()`, `use_gpl3_license()` or friends to pick a
     license
