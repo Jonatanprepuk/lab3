@@ -18,22 +18,20 @@
 #' euclidean(123612, 13892347912)
 #' euclidean(100, 1000)
 #'
-
-euclidean <- function(M, N){
-  stopifnot(is.vector(c(M, N)))  #  Stop if either parameter is not a vector
-  if (M < N){    #  Swap M and N if M is smaller
-    m = N
-    n = M 
+euclidean <- function(M, N) {
+  stopifnot(is.vector(c(M, N))) #  Stop if either parameter is not a vector
+  if (M < N) { #  Swap M and N if M is smaller
+    m <- N
+    n <- M
   } else {
-    m = M
-    n = N
+    m <- M
+    n <- N
   }
-  R = NA
-  while (n != 0 ) {
-    R = m %% n 
-    m = n
-    n = R 
+  remainder <- NA
+  while (n != 0) {
+    remainder <- m %% n
+    m <- n
+    n <- remainder
   }
   return(m)
 }
-
