@@ -5,6 +5,7 @@
 
 <!-- badges: start -->
 
+[![R-CMD-check](https://github.com/Jonatanprepuk/lab3/actions/workflows/R-CMD-check.yaml/badge.svg)](https://github.com/Jonatanprepuk/lab3/actions/workflows/R-CMD-check.yaml)
 <!-- badges: end -->
 
 The goal of lab3 is to create our first R package with Euclidean
