@@ -34,5 +34,5 @@ euclidean <- function(M, N) {
     m <- n
     n <- remainder
   }
-  return(m)
+  return(abs(m))
 }
