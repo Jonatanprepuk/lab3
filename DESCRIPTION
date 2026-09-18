@@ -3,7 +3,7 @@ Title: lab3: Euclidian and dijkstra's algorithm
 Version: 0.0.0.9000
 Authors@R: c(
     person("Albin", "Bäckström", , "albba064@student.liu.se", role = c("aut", "cre")),
-    person("Jonatan", "Prepuk", "jonpr189@student.liu.se", role= c("aut")))
+    person("Jonatan", "Prepuk", ,"jonpr189@student.liu.se", role= c("aut")))
 Description: A package for finding the greatest common divider and finding the shortest path in a graph network.
 License: MIT + file LICENSE
 Encoding: UTF-8
@@ -12,3 +12,6 @@ Suggests:
     testthat (>= 3.0.0)
 Config/testthat/edition: 3
 Config/roxygen2/version: 8.1.0
+Depends: 
+    R (>= 3.5)
+LazyData: true
