@@ -22,7 +22,7 @@ shortest path distances are calculated. The node must occur in either
 \code{v1} or \code{v2}.}
 }
 \value{
-A numeric \code{link[base]{vector}} containing the shortest
+A numeric \code{\link[base]{vector}} containing the shortest
 path distance from \code{init_node} to all other nodes.
 }
 \description{
