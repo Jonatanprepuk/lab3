@@ -33,7 +33,8 @@ dijkstra <- function(graph, init_node) {
   stopifnot(
     is.data.frame(graph),
     identical(colnames(graph), c("v1", "v2", "w")),
-    init_node %in% union(graph$v1, graph$v2)
+    init_node %in% union(graph$v1, graph$v2),
+    graph$w >= 0
   )
 
   node_count <- length(unique(union(graph$v1, graph$v2)))
