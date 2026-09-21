@@ -41,5 +41,7 @@ euclidean(1374, 32)
 
 This is a basic example which shows how to compute the shortest path in a graph:
 ```{r example dijkstra}
-
+library(lab3)
+data(wiki_graph)
+dijkstra(wiki_graph, 1)
 ```
