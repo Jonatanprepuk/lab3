@@ -21,6 +21,8 @@
 #'
 euclidean <- function(M, N) {
   stopifnot(is.numeric(c(M, N))) #  Stop if either parameter is not numeric
+  M <- abs(M)
+  N <- abs(N)
   if (M < N) { #  Swap M and N if M is smaller
     m <- N
     n <- M
@@ -34,5 +36,5 @@ euclidean <- function(M, N) {
     m <- n
     n <- remainder
   }
-  return(abs(m))
+  return(m)
 }
